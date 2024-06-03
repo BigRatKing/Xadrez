@@ -7,5 +7,6 @@ public class program {
         board campo=new board();
         campo.iniciador();
         System.out.println(campo);
+        System.out.println("Hello world");
     }
 }
