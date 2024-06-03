@@ -1,12 +1,13 @@
 package application;
 
-import entities.board;
+import Tabuleiro.Campo;
+import Tabuleiro.Posicao;
+import Xadrez.PartidaDeXadrez;
+import Xadrez.PecaDeXadrez;
 
 public class program {
     public static void main(String[] args){
-        board campo=new board();
-        campo.iniciador();
-        System.out.println(campo);
-        System.out.println("Hello world");
+        PartidaDeXadrez partida=new PartidaDeXadrez();
+        UI.printCampo(partida.getPecas());
     }
 }
